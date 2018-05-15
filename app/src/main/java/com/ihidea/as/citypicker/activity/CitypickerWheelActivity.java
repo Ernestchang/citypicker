@@ -16,7 +16,6 @@ import com.lljjcoder.bean.DistrictBean;
 import com.lljjcoder.bean.ProvinceBean;
 import com.lljjcoder.citywheel.CityConfig;
 import com.lljjcoder.style.citypickerview.CityPickerView;
-import com.lljjcoder.style.citylist.Toast.ToastUtils;
 
 public class CitypickerWheelActivity extends AppCompatActivity {
     
@@ -280,7 +279,6 @@ public class CitypickerWheelActivity extends AppCompatActivity {
             
             @Override
             public void onCancel() {
-                ToastUtils.showLongToast(CitypickerWheelActivity.this, "已取消");
             }
         });
         mCityPickerView.showCityPicker();

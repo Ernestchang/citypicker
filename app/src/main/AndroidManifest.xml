@@ -19,14 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.CitypickerListActivity">
-        </activity>
         <activity android:name=".activity.CitypickerWheelActivity"
             >
-        </activity>
-        <activity android:name=".test.TestActivity">
-        </activity>
-        <activity android:name=".activity.CitypickerThreeListActivity">
         </activity>
     </application>
 

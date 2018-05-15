@@ -6,8 +6,6 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.ihidea.as.citypicker.activity.CitypickerListActivity;
-import com.ihidea.as.citypicker.activity.CitypickerThreeListActivity;
 import com.ihidea.as.citypicker.activity.CitypickerWheelActivity;
 import com.ihidea.as.citypicker.adapter.CityPickerAdapter;
 import com.ihidea.as.citypicker.model.CityPickerStyleBean;
@@ -81,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
     private void gotoDetail(int resourId) {
         switch (resourId) {
             case R.drawable.ic_citypicker_onecity:
-                ActivityUtils.getInstance().showActivity(MainActivity.this, CitypickerListActivity.class);
+//                ActivityUtils.getInstance().showActivity(MainActivity.this, CitypickerListActivity.class);
                 break;
             
             case R.drawable.ic_citypicker_ios:
@@ -89,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             
             case R.drawable.ic_citypicker_three_city:
-                ActivityUtils.getInstance().showActivity(MainActivity.this, CitypickerThreeListActivity.class);
+//                ActivityUtils.getInstance().showActivity(MainActivity.this, CitypickerThreeListActivity.class);
                 break;
             /*
             case R.drawable.ic_citypicker_jingdong:

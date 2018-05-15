@@ -5,13 +5,13 @@ android {
         javaMaxHeapSize "4g"
     }
 
-    compileSdkVersion 24
+    compileSdkVersion 26
     buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "com.ihidea.as.citypicker"
         minSdkVersion 14
-        targetSdkVersion 15
+        targetSdkVersion 26
         versionCode 1
         versionName "1.1"
     }
@@ -27,9 +27,9 @@ android {
 
 dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:appcompat-v7:26.0.2'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:recyclerview-v7:24.1.1'
+    compile 'com.android.support:recyclerview-v7:26.0.2'
     compile project(':citypickerview')
 
 
